@@ -1,0 +1,15 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+wtf-key
+terraform/modules/ec2-modules/wtf-key
+# Optional local overrides
+#*.tfvars      # if you have secrets in terraform.tfvars
+
+# OS/Editor files
+*.log
+*.swp
+.DS_Store
